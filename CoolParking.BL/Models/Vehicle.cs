@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 
 public class Vehicle
 {
-    [RegularExpression(@"^[A-Z]+$-^[0-9]+$-^[A-Z]+$")]
+    [RegularExpression(@"^[A-Z]{2}-^[0-9]+$-^[A-Z]+$")]
     public string Id { get; init; }
     public VehicleType VehicleType { get; init; }
     public decimal Balance { get; set; }

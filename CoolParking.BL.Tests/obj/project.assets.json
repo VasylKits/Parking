@@ -6600,11 +6600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\bsa-dotnet-hw2-template\\CoolParking\\CoolParking.BL.Tests\\CoolParking.BL.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Parking\\CoolParking.BL.Tests\\CoolParking.BL.Tests.csproj",
       "projectName": "CoolParking.BL.Tests",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\bsa-dotnet-hw2-template\\CoolParking\\CoolParking.BL.Tests\\CoolParking.BL.Tests.csproj",
+      "projectPath": "C:\\Users\\Admin\\Parking\\CoolParking.BL.Tests\\CoolParking.BL.Tests.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\bsa-dotnet-hw2-template\\CoolParking\\CoolParking.BL.Tests\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Parking\\CoolParking.BL.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6621,8 +6621,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\bsa-dotnet-hw2-template\\CoolParking\\CoolParking.BL\\CoolParking.BL.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\bsa-dotnet-hw2-template\\CoolParking\\CoolParking.BL\\CoolParking.BL.csproj"
+            "C:\\Users\\Admin\\Parking\\CoolParking.BL\\CoolParking.BL.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Parking\\CoolParking.BL\\CoolParking.BL.csproj"
             }
           }
         }

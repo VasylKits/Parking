@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KKBIIypvI2du3zib6PJ9PignfuZSe9Lfe7nX8g5l0qyl2aORmP6Z6aIU5gxy5qIEVmRRmyvukVat8HDGbEOsrA==",
+  "dgSpecHash": "D+F0/3Yk/RmA0gXhfw1GNi4n4yepBrSE7ZZ91rRWpCKsB1881syH/108Ur1rX43h3U9u5wC2JvANr1gvUY91kw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\bsa-dotnet-hw2-template\\CoolParking\\CoolParking.BL\\CoolParking.BL.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Parking\\CoolParking.BL\\CoolParking.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\apache.nms\\1.8.0\\apache.nms.1.8.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\apache.nms.activemq\\1.8.0\\apache.nms.activemq.1.8.0.nupkg.sha512",

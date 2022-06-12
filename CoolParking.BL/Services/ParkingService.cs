@@ -6,13 +6,17 @@
 //       and tests, for example, in ParkingServiceTests you can find the necessary constructor format and validation rules.
 using Apache.NMS.ActiveMQ.Commands;
 using CoolParking.BL.Interfaces;
+using CoolParking.BL.Models;
 using System.Collections.ObjectModel;
+using System;
+using System.Linq;
 
 public class ParkingServices : IParkingService
 {
+    Parking parking = Parking.Ititialize();
     public void AddVehicle(Vehicle vehicle)
     {
-        throw new System.NotImplementedException();
+        parking.Vechicles.Add(vehicle);
     }
 
     public void Dispose()
@@ -27,7 +31,7 @@ public class ParkingServices : IParkingService
 
     public int GetCapacity()
     {
-        throw new System.NotImplementedException();
+        return Setting.Capacity - parking.Vechicles.Count;
     }
 
     public int GetFreePlaces()
@@ -42,7 +46,9 @@ public class ParkingServices : IParkingService
 
     public ReadOnlyCollection<Vehicle> GetVehicles()
     {
-        throw new System.NotImplementedException();
+        var vehicleList = parking.Vechicles.ToList();
+            throw new System.NotImplementedException();
+
     }
 
     public string ReadFromLog()

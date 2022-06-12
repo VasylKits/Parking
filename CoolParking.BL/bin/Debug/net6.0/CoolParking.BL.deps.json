@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "CoolParkingConsole/1.0.0": {
+      "CoolParking.BL/1.0.0": {
         "dependencies": {
-          "CoolParking.BL": "1.0.0"
+          "Apache.NMS.ActiveMQ": "1.8.0"
         },
         "runtime": {
-          "CoolParkingConsole.dll": {}
+          "CoolParking.BL.dll": {}
         }
       },
       "Apache.NMS/1.8.0": {
@@ -41,19 +41,11 @@
           "Microsoft.NETCore.Platforms": "1.1.1",
           "Microsoft.NETCore.Targets": "1.1.3"
         }
-      },
-      "CoolParking.BL/1.0.0": {
-        "dependencies": {
-          "Apache.NMS.ActiveMQ": "1.8.0"
-        },
-        "runtime": {
-          "CoolParking.BL.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "CoolParkingConsole/1.0.0": {
+    "CoolParking.BL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -92,11 +84,6 @@
       "sha512": "sha512-abhfv1dTK6NXOmu4bgHIONxHyEqFjW8HwXPmpY9gmll+ix9UNo4XDcmzJn6oLooftxNssVHdJC1pGT9jkSynQg==",
       "path": "system.runtime/4.3.1",
       "hashPath": "system.runtime.4.3.1.nupkg.sha512"
-    },
-    "CoolParking.BL/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

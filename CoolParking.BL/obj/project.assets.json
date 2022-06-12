@@ -220,11 +220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\bsa-dotnet-hw2-template\\CoolParking\\CoolParking.BL\\CoolParking.BL.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Parking\\CoolParking.BL\\CoolParking.BL.csproj",
       "projectName": "CoolParking.BL",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\bsa-dotnet-hw2-template\\CoolParking\\CoolParking.BL\\CoolParking.BL.csproj",
+      "projectPath": "C:\\Users\\Admin\\Parking\\CoolParking.BL\\CoolParking.BL.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\bsa-dotnet-hw2-template\\CoolParking\\CoolParking.BL\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Parking\\CoolParking.BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
