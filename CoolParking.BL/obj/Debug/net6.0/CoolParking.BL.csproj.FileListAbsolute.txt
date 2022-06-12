@@ -1,0 +1,5 @@
+C:\Users\Admin\source\repos\bsa-dotnet-hw2-template\CoolParking\CoolParking.BL\obj\Debug\net6.0\CoolParking.BL.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\bsa-dotnet-hw2-template\CoolParking\CoolParking.BL\obj\Debug\net6.0\CoolParking.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\bsa-dotnet-hw2-template\CoolParking\CoolParking.BL\obj\Debug\net6.0\CoolParking.BL.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\bsa-dotnet-hw2-template\CoolParking\CoolParking.BL\obj\Debug\net6.0\CoolParking.BL.AssemblyInfo.cs
+C:\Users\Admin\source\repos\bsa-dotnet-hw2-template\CoolParking\CoolParking.BL\obj\Debug\net6.0\CoolParking.BL.csproj.CoreCompileInputs.cache
