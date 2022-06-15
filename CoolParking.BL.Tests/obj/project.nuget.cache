@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VXQnwX34H3IEhqvMRJP17JaVXbL6igkBSRPuKmOABy8ge6m2+HabckE16Wt2P4T2o/YC/hL20Sm61L8OK3WasA==",
+  "dgSpecHash": "bGzdzCnD1eTLTCfqc5/2WKPVaSa/m6XG0YFplHkeridqV9K5lx44eb8oFGTccisd+Xsvlf2KhSXBqqu0NmrR3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Parking\\CoolParking.BL.Tests\\CoolParking.BL.Tests.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\fakeiteasy\\7.3.1\\fakeiteasy.7.3.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\fare\\2.2.0\\fare.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.codecoverage\\17.2.0\\microsoft.codecoverage.17.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.net.test.sdk\\17.2.0\\microsoft.net.test.sdk.17.2.0.nupkg.sha512",

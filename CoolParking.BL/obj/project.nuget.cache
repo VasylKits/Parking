@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "D+F0/3Yk/RmA0gXhfw1GNi4n4yepBrSE7ZZ91rRWpCKsB1881syH/108Ur1rX43h3U9u5wC2JvANr1gvUY91kw==",
+  "dgSpecHash": "7cCCqInwd/gN2IwWiA238an+Fg+5pqWWp+4PXcbwUxMO79yiFwMk6CBJaa1LXKg5aCYJfHkLGS6DPLGSblEuUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Parking\\CoolParking.BL\\CoolParking.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\apache.nms\\1.8.0\\apache.nms.1.8.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\apache.nms.activemq\\1.8.0\\apache.nms.activemq.1.8.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\fare\\2.2.0\\fare.2.2.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.1\\microsoft.netcore.platforms.1.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\system.runtime\\4.3.1\\system.runtime.4.3.1.nupkg.sha512"

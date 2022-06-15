@@ -131,6 +131,10 @@
             "Apache.NMS.ActiveMQ": {
               "target": "Package",
               "version": "[1.8.0, )"
+            },
+            "Fare": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

@@ -11,12 +11,12 @@ using System.Collections.ObjectModel;
 using System;
 using System.Linq;
 
-public class ParkingServices : IParkingService
+public class ParkingService : IParkingService
 {
     Parking parking = Parking.Ititialize();
-    public void AddVehicle(Vehicle vehicle)
-    {
-        parking.Vechicles.Add(vehicle);
+    public void AddVehicle(Vehicle vehicle) //не можу зрозуміти це метод, який додає автомобіль на паркінг? Відповідно мені потрібно в ньому писати логіку створення 
+    {                                          // але він приймає об'єкт Vehicle, то значить авто вже має бути додано?
+        parking.Vechicles.Append(vehicle);
     }
 
     public void Dispose()
