@@ -4,19 +4,22 @@
 //       Other validation rules and constructor format went from tests.
 //       Other implementation details are up to you, they just have to match the interface requirements
 //       and tests, for example, in ParkingServiceTests you can find the necessary constructor format and validation rules.
+using System;
 using Apache.NMS.ActiveMQ.Commands;
 using CoolParking.BL.Interfaces;
 using CoolParking.BL.Models;
 using System.Collections.ObjectModel;
-using System;
 using System.Linq;
 
 public class ParkingService : IParkingService
 {
     Parking parking = Parking.Ititialize();
-    public void AddVehicle(Vehicle vehicle) //не можу зрозуміти це метод, який додає автомобіль на паркінг? Відповідно мені потрібно в ньому писати логіку створення 
-    {                                          // але він приймає об'єкт Vehicle, то значить авто вже має бути додано?
-        parking.Vechicles.Append(vehicle);
+    public void AddVehicle(Vehicle vehicle) 
+    {
+        if (Setting.Capacity == 0)
+            throw new System.InvalidOperationException();
+        parking.Vechicles.Add(vehicle);
+        Setting.Capacity -= 1;
     }
 
     public void Dispose()
@@ -26,17 +29,17 @@ public class ParkingService : IParkingService
 
     public decimal GetBalance()
     {
-        throw new System.NotImplementedException();
+        return Setting.Balance;
     }
 
     public int GetCapacity()
     {
-        return Setting.Capacity - parking.Vechicles.Count;
+        return parking.Vechicles.Count;
     }
 
     public int GetFreePlaces()
     {
-        throw new System.NotImplementedException();
+        return Setting.Capacity;
     }
 
     public TransactionInfo[] GetLastParkingTransactions()
@@ -46,9 +49,11 @@ public class ParkingService : IParkingService
 
     public ReadOnlyCollection<Vehicle> GetVehicles()
     {
-        var vehicleList = parking.Vechicles.ToList();
-            throw new System.NotImplementedException();
-
+        var vehicleList = parking.Vechicles;
+        ReadOnlyCollection<Vehicle> readOnlyVehicles = new ReadOnlyCollection<Vehicle>(vehicleList);
+        if (readOnlyVehicles is null)
+            throw new System.NullReferenceException();
+        return readOnlyVehicles;
     }
 
     public string ReadFromLog()
@@ -58,7 +63,13 @@ public class ParkingService : IParkingService
 
     public void RemoveVehicle(string vehicleId)
     {
-        throw new System.NotImplementedException();
+        var del = GetVehicles().FirstOrDefault(x => x.Id == vehicleId);
+        if (del != null)
+        {
+            parking.Vechicles.Remove(del);
+            Console.WriteLine($"Deleted success {vehicleId}");
+        }
+        Console.WriteLine($"No car with Id {vehicleId}");
     }
 
     public void TopUpVehicle(string vehicleId, decimal sum)

@@ -6,9 +6,11 @@
 //       The type of constructor is shown in the tests and the constructor should have a validation, which also is clear from the tests.
 //       Static method GenerateRandomRegistrationPlateNumber should return a randomly generated unique identifier.
 using Fare;
+using LinqToDB.Mapping;
 
 public class Vehicle
 {
+    [Identity]
     public string Id { get; init; } 
     public VehicleType VehicleType { get; init; }
     public decimal Balance { get; set; }

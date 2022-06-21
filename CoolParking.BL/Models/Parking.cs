@@ -22,6 +22,6 @@ public class Parking
         return parking;
     }
     public decimal Balance { get; set; }
-
     public List<Vehicle> Vechicles { get; set; }
+    public int Capacity { get; set; }
 }
