@@ -17,6 +17,7 @@ public class Parking
         if (parking == null)
             parking = new Parking();
         parking.Balance = Setting.Balance;
+        parking.Capacity = Setting.Capacity;
         parking.Vechicles = new List<Vehicle>();
 
         return parking;

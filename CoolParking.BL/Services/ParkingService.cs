@@ -19,7 +19,7 @@ public class ParkingService : IParkingService
         if (Setting.Capacity == 0)
             throw new System.InvalidOperationException();
         parking.Vechicles.Add(vehicle);
-        Setting.Capacity -= 1;
+        parking.Capacity -= 1;
     }
 
     public void Dispose()
@@ -29,7 +29,7 @@ public class ParkingService : IParkingService
 
     public decimal GetBalance()
     {
-        return Setting.Balance;
+        return parking.Balance;
     }
 
     public int GetCapacity()
@@ -39,7 +39,7 @@ public class ParkingService : IParkingService
 
     public int GetFreePlaces()
     {
-        return Setting.Capacity;
+        return parking.Capacity;
     }
 
     public TransactionInfo[] GetLastParkingTransactions()
@@ -64,16 +64,20 @@ public class ParkingService : IParkingService
     public void RemoveVehicle(string vehicleId)
     {
         var del = GetVehicles().FirstOrDefault(x => x.Id == vehicleId);
-        if (del != null)
+        if (del == null)
+            Console.WriteLine($"No car with Id {vehicleId}");
+        else
         {
             parking.Vechicles.Remove(del);
+            parking.Capacity += 1;
             Console.WriteLine($"Deleted success {vehicleId}");
         }
-        Console.WriteLine($"No car with Id {vehicleId}");
     }
 
     public void TopUpVehicle(string vehicleId, decimal sum)
     {
-        throw new System.NotImplementedException();
+        var topUp = GetVehicles().FirstOrDefault(x => x.Id == vehicleId);
+        topUp.Balance += sum;
+        Console.WriteLine($"Vehicle {vehicleId} balance = {topUp.Balance}");
     }
 }

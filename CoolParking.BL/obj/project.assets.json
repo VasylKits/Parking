@@ -33,15 +33,6 @@
           "lib/netstandard2.1/Fare.dll": {}
         }
       },
-      "linq2db/4.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/linq2db.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/linq2db.dll": {}
-        }
-      },
       "Microsoft.NETCore.Platforms/1.1.1": {
         "type": "package",
         "compile": {
@@ -119,34 +110,6 @@
         "lib/netstandard1.1/Fare.xml",
         "lib/netstandard2.1/Fare.dll",
         "lib/netstandard2.1/Fare.xml"
-      ]
-    },
-    "linq2db/4.1.0": {
-      "sha512": "Dju6pcgxkNnvRt+PoiusMT5vp469aFa/+PwnimhHhkC9cZqInYmutMgjmP7MsnoYQFs9qhWQ4OjWOAxjfNcqGg==",
-      "type": "package",
-      "path": "linq2db/4.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "MIT-LICENSE.txt",
-        "README.md",
-        "images/icon.png",
-        "lib/net45/linq2db.dll",
-        "lib/net45/linq2db.xml",
-        "lib/net46/linq2db.dll",
-        "lib/net46/linq2db.xml",
-        "lib/net472/linq2db.dll",
-        "lib/net472/linq2db.xml",
-        "lib/net6.0/linq2db.dll",
-        "lib/net6.0/linq2db.xml",
-        "lib/netcoreapp3.1/linq2db.dll",
-        "lib/netcoreapp3.1/linq2db.xml",
-        "lib/netstandard2.0/linq2db.dll",
-        "lib/netstandard2.0/linq2db.xml",
-        "lib/netstandard2.1/linq2db.dll",
-        "lib/netstandard2.1/linq2db.xml",
-        "linq2db.4.1.0.nupkg.sha512",
-        "linq2db.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.1": {
@@ -275,8 +238,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Apache.NMS.ActiveMQ >= 1.8.0",
-      "Fare >= 2.2.0",
-      "linq2db >= 4.1.0"
+      "Fare >= 2.2.0"
     ]
   },
   "packageFolders": {
@@ -325,10 +287,6 @@
           "Fare": {
             "target": "Package",
             "version": "[2.2.0, )"
-          },
-          "linq2db": {
-            "target": "Package",
-            "version": "[4.1.0, )"
           }
         },
         "imports": [
@@ -346,7 +304,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

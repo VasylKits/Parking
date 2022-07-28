@@ -34,4 +34,3 @@ C:\Users\Admin\Parking\CoolParkingConsole\bin\Debug\net6.0\CoolParking.BL.dll
 C:\Users\Admin\Parking\CoolParkingConsole\bin\Debug\net6.0\CoolParking.BL.pdb
 C:\Users\Admin\Parking\CoolParkingConsole\obj\Debug\net6.0\CoolParkingConsole.csproj.CopyComplete
 C:\Users\Admin\Parking\CoolParkingConsole\bin\Debug\net6.0\Fare.dll
-C:\Users\Admin\Parking\CoolParkingConsole\bin\Debug\net6.0\linq2db.dll
